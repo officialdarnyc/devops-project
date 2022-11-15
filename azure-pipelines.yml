@@ -11,13 +11,13 @@ variables:
   azureSubscription: '342f6272-20ea-4854-b358-0e8c72e3b7ef'
 
   # Function app name
-  functionAppName: 'Sample .NET app'
+  functionAppName: '.NET app'
 
   # Agent VM image name
   vmImageName: 'windows-2019'
 
   # Working Directory
-  workingDirectory: './dotnet/aspnetcore/functionApp'
+  workingDirectory: './dotnet/aspnetcore/functionApp/Application/SampleFunctionApp'
 
 stages:
 - stage: Build
