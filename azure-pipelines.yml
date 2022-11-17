@@ -7,9 +7,6 @@ trigger:
 - master
 
 variables:
-  # Azure Resource Manager connection created during pipeline creation
-  azureSubscription: '342f6272-20ea-4854-b358-0e8c72e3b7ef'
-
   # Function app name
   functionAppName: '.NET app'
 
